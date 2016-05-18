@@ -1,0 +1,13 @@
+/*
+Theme Name:     Polytechnic Child Theme
+Theme URI:      http: //example.com/
+Description:    Child Theme Test
+Author:         Charlie
+Author URI:     http: //example.com/about/
+Template:       polytechnic
+Version:        1.0
+*/
+
+@import url("../polytechnic/style.css");
+
+/* Add Your Custom CSS Below */
