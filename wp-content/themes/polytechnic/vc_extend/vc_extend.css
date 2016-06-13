@@ -210,15 +210,15 @@
 }
 
 /*  #Extra Small Desktop */
-@media only screen and (max-width: 950px) {
+/*@media only screen and (max-width: 950px) {
 
   #page .hover-image .content-inner h4 {font-size: 1.2rem;}
   #page .hover-image .content-inner > p {font-size: 1.4rem;}
 
-}
+}*/
 
 /*  #Tablet Viewport */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 950px) {
 
   #page .hover-image .content-inner h4 {font-size: 1.6rem;}
   #page .hover-image .content-inner > p {font-size: 1.4rem;}

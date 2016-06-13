@@ -7,7 +7,7 @@
 
 
 /* #Tablet (Portrait) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*@media only screen and (min-width: 768px) and (max-width: 959px) {
     .container                                  { width: 100%; }
     .container .column,
     .container .columns                         { margin-left: 1.302083333333333%; margin-right: 1.302083333333333%;  }
@@ -33,9 +33,9 @@
     .container .sixteen.columns                 { width: 97.39583333333333%; }
     .container .one-third.column                { width: 30.72916666666667%; }
     .container .two-thirds.column               { width: 64.0625%; }
-}
+}*/
 /*  #Mobile (Portrait) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 959px) {
     .container { width: 92%; }
     .container .columns,
     .container .column { margin: 0; }
@@ -76,7 +76,7 @@
     .container .offset-by-fifteen { padding-left: 0; }
 }
 /* #Mobile (Landscape) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 959px) {
     .container { width: 92%; }
     .container .columns,
     .container .column { margin: 0; }

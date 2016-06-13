@@ -47,23 +47,23 @@
 
 
 /* #Tablet (Portrait) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*@media only screen and (min-width: 768px) and (max-width: 959px) {
 
 	.one-fifth.column {width: 17.6%;}
 	.one-sixth.column {width: 14.5%;}
 
 	/*  - ShareDaddy -  */
-	#page div.sharedaddy .sd-content li {width: 33% !important;}
+	/*#page div.sharedaddy .sd-content li {width: 33% !important;}
 	
 	/*  - Sticky Header - */
-	#page #section-sticky-header nav ul.mega-menu > li {
+	/*#page #section-sticky-header nav ul.mega-menu > li {
 	  margin-left: 15px !important;
 	  margin-right: 15px !important;
 	}
 	#page .sticky ul.social li {width: 1.4rem;}
 
 	/*  - Single Image Hover -  */
-   #page .module-content p {
+   /*#page .module-content p {
 	  font-size: 1rem !important;
 	  line-height: 1.2;
 	  font-weight: 700;
@@ -72,11 +72,11 @@
       width: 64%;
     }
 
-}
+}*/
 
 
 /*  #Mobile (Portrait) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 959px) {
 
 	.one-fifth.column {width: 100%;}
 	.one-sixth.column {width: 100%;}
@@ -235,7 +235,7 @@
 
 
 /* #Mobile (Landscape) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 959px) {
 	.site-title > img {float: none !important; margin-top: -3px !important;}
 	.vc_responsive .wpb_row .vc_span3 {width: 100% !important;}
 	#page div.sharedaddy .sd-content li {width: 50% !important;}
@@ -257,7 +257,7 @@
 
 /* ADDED/AUDIT MEDIA QUERIES */
 /*  #Mobile (Landscape) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 959px) {
 
 	#section-tophat .sixteen.columns, #section-tophat .container, #section-tophat .left .th_banner, .th_show_hide.th_flag_toggle {float: right !important; padding: 0 !important;}
 	#section-tophat .right {display: none;}
