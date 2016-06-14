@@ -24,20 +24,20 @@
  * This hack targets the Webkit browser engine
  * which includes Safari and Chrome.
  */
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
     /* Safari and Chrome, if Chrome rule needed */
     #page .hover-grid .wpb_content_element.hover-image {
     margin-bottom: 0 !important;
     padding-bottom: 9px !important;
     }
- 
+
     /* Safari 5+ ONLY */
     ::i-block-chrome, #page .hover-grid .wpb_content_element.hover-image {
     margin-bottom: 0 !important;
     padding-bottom: 15px !important;
     }
 }
-      
+
   .hover-grid .wpb_column.column_container {
     padding-left: 0.7rem !important;
     padding-right: 0.7rem !important;
@@ -183,8 +183,8 @@
 }
 
 /*   SET TRANSITION TYPE */
-/*  - Content - Hover Transition 1: Slide Up 
-.hover-image .module-inner:hover .module-content, 
+/*  - Content - Hover Transition 1: Slide Up
+.hover-image .module-inner:hover .module-content,
 .hover-image .module-inner:hover .module-background {
 	height: 100% !important;
 }-  */
@@ -210,15 +210,15 @@
 }
 
 /*  #Extra Small Desktop */
-/*@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
 
   #page .hover-image .content-inner h4 {font-size: 1.2rem;}
   #page .hover-image .content-inner > p {font-size: 1.4rem;}
 
-}*/
+}
 
 /*  #Tablet Viewport */
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 767px) {
 
   #page .hover-image .content-inner h4 {font-size: 1.6rem;}
   #page .hover-image .content-inner > p {font-size: 1.4rem;}

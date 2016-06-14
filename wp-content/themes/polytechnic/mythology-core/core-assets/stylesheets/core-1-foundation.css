@@ -4,7 +4,7 @@
 /* 1REM = 10px */
 *,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
-html{font-size:62.5%;line-height: 1.625;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;overflow-y:scroll;} 
+html{font-size:62.5%;line-height: 1.625;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;overflow-y:scroll;}
 body{background:white;color:#222;padding:0;margin:0;position:relative;cursor:default}
 div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
 article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}
@@ -21,8 +21,8 @@ a img{border:0}
 hr{
 	background: transparent;
 	border: medium none;
-	border-top: 1px solid #ddd; 
-	border-top: 1px solid rgba(0,0,0,0.15); 
+	border-top: 1px solid #ddd;
+	border-top: 1px solid rgba(0,0,0,0.15);
 	border-bottom: 1px solid #FFF;
 	border-bottom: 1px solid rgba(255,255,255,0.1);
     margin: 24px 0 24px; margin: 2.4rem 0 2.4rem;
@@ -76,7 +76,7 @@ img{height:auto;-ms-interpolation-mode:bicubic;display:inline-block;vertical-ali
 .screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute !important}
 .screen-reader-text:hover,.screen-reader-text:active,.screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,0.6);clip:auto !important;color:#21759b;display:block;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
 .clear:before,.clear:after,.entry-content:before,.entry-content:after,.comment-content:before,.comment-content:after,.site-header:before,.site-header:after,.site-content:before,.site-content:after,.site-footer:before,.site-footer:after{content:'';display:table}
-.clear:after,.entry-content:after,.comment-content:after,.site-header:after,.site-content:after,.site-footer:after{clear:both} 
+.clear:after,.entry-content:after,.comment-content:after,.site-header:after,.site-content:after,.site-footer:after{clear:both}
 
 
 /* WP ELEMENT RULES */
@@ -191,7 +191,7 @@ h4{font-size:14px;font-size:1.4rem}
 h5{font-size:11px;font-size:1.1rem}
 h6{font-size:10px;font-size:1.0rem}
 
-@media only screen and (max-width:991px){
+@media only screen and (max-width:768px){
 	h1{font-size:21px;font-size:2.1rem}
 	h2{font-size:17px;font-size:1.7rem}
 	h3{font-size:15px;font-size:1.5rem}
