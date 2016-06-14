@@ -35,7 +35,7 @@
     .container .two-thirds.column               { width: 64.0625%; }
 }*/
 /*  #Mobile (Portrait) */
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 992px) {
     .container { width: 92%; }
     .container .columns,
     .container .column { margin: 0; }
@@ -76,7 +76,7 @@
     .container .offset-by-fifteen { padding-left: 0; }
 }
 /* #Mobile (Landscape) */
-@media only screen and (min-width: 480px) and (max-width: 959px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     .container { width: 92%; }
     .container .columns,
     .container .column { margin: 0; }
