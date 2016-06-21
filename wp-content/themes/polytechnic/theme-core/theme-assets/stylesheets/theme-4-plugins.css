@@ -1355,7 +1355,7 @@ a.remove:hover {
         font-size: 1.3rem;
         font-weight: 400;
         margin-bottom: 0rem;
-        text-align: left !important;
+        /*text-align: left !important;*/
       }
         #section-tophat-dropdown .tribe-event-title > a {
           font-weight: 400;

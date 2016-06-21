@@ -250,7 +250,7 @@
 
 	#section-tophat, #section-sub-footer {height: auto;}
 	#section-sub-footer .left {text-align: center;width: 100%;}
-	#section-sub-footer .right {display: block;margin: 10px;text-align: center;width: 100%;}
+	#section-sub-footer .right {display: block;margin: 10px 0px;text-align: center;width: 100%;}
 
 	body.login{height: 120% !important;}
 
